@@ -104,14 +104,6 @@ INPUT /usr/local/texlive/2012/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 OUTPUT paper.pdf
 INPUT /usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/local/texlive/2012/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
-INPUT /usr/local/texlive/2012/texmf-dist/tex/latex/listings/lstlang1.sty
-INPUT /usr/local/texlive/2012/texmf-dist/tex/latex/listings/lstlang1.sty
-INPUT /usr/local/texlive/2012/texmf-dist/tex/latex/listings/lstmisc.sty
-INPUT /usr/local/texlive/2012/texmf-dist/tex/latex/listings/lstmisc.sty
-INPUT /usr/local/texlive/2012/texmf-dist/tex/latex/base/omlcmr.fd
-INPUT /usr/local/texlive/2012/texmf-dist/tex/latex/base/omlcmr.fd
-INPUT /usr/local/texlive/2012/texmf-dist/tex/latex/base/omscmr.fd
-INPUT /usr/local/texlive/2012/texmf-dist/tex/latex/base/omscmr.fd
 INPUT paper.aux
 INPUT /usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 INPUT /usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
