@@ -108,6 +108,12 @@ INPUT web_service_layers.png
 INPUT ./web_service_layers.png
 INPUT ./web_service_layers.png
 INPUT /usr/local/texlive/2012/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
+INPUT vresco.png
+INPUT ./vresco.png
+INPUT ./vresco.png
+INPUT chain_of_adapters.png
+INPUT ./chain_of_adapters.png
+INPUT ./chain_of_adapters.png
 INPUT paper.bbl
 INPUT paper.bbl
 INPUT /usr/local/texlive/2012/texmf-dist/fonts/tfm/public/cm/cmti9.tfm
