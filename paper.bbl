@@ -1,0 +1,122 @@
+\begin{thebibliography}{10}
+
+\bibitem{web_service_wiki}
+Web service, wikipedia.
+\newblock http://en.wikipedia.org/wiki/Web\_service.
+
+\bibitem{web_service_protocols_wiki}
+List of web service protocols, wikipedia.
+\newblock http://en.wikipedia.org/wiki/List\_of\_web\_service\_protocols.
+
+\bibitem{soap_wiki}
+Soap, wikipedia.
+\newblock http://en.wikipedia.org/wiki/SOAP.
+
+\bibitem{rest_wiki}
+Representational state transfer, wikipedia.
+\newblock https://en.wikipedia.org/wiki/Representational\_state\_transfer.
+
+\bibitem{facebook_release_note}
+Platform updates, facebook.
+\newblock
+  https://developers.facebook.com/blog/post/2013/05/22/platform-updates--operation-.
+
+\bibitem{kitchenham2007guidelines}
+Barbara~A Kitchenham and Stuart Charters.
+\newblock Guidelines for performing systematic literature reviews in software
+  engineering.
+\newblock 2007.
+
+\bibitem{petersen2008systematic}
+Kai Petersen, Robert Feldt, Shahid Mujtaba, and Michael Mattsson.
+\newblock Systematic mapping studies in software engineering.
+\newblock In {\em 12th International Conference on Evaluation and Assessment in
+  Software Engineering}, volume~17, page~1, 2008.
+
+\bibitem{treiber2009analyzing}
+Martin Treiber, Hong-Linh Truong, and Schahram Dustdar.
+\newblock On analyzing evolutionary changes of web services.
+\newblock In {\em Service-Oriented Computing--ICSOC 2008 Workshops}, pages
+  284--297. Springer, 2009.
+
+\bibitem{borovskiy2008evolution}
+Vadym Borovskiy and Alexander Zeier.
+\newblock Evolution management of enterprise web services.
+\newblock In {\em Advanced Management of Information for Globalized
+  Enterprises, 2008. AMIGE 2008. IEEE Symposium on}, pages 1--5. IEEE, 2008.
+
+\bibitem{lublinsky2007versioning}
+Boris Lublinsky.
+\newblock Versioning in soa.
+\newblock {\em Microsoft Architect Journal, April}, 2007.
+
+\bibitem{laskey2008considerations}
+Ken Laskey.
+\newblock Considerations for soa versioning.
+\newblock In {\em Enterprise Distributed Object Computing Conference Workshops,
+  2008 12th}, pages 333--337. IEEE, 2008.
+
+\bibitem{wilde2004semantically}
+Erik Wilde.
+\newblock Semantically extensible schemas for web service evolution.
+\newblock In {\em Web Services}, pages 30--45. Springer, 2004.
+
+\bibitem{leitner2008end}
+Philipp Leitner, Anton Michlmayr, Florian Rosenberg, and Schahram Dustdar.
+\newblock End-to-end versioning support for web services.
+\newblock In {\em Services Computing, 2008. SCC'08. IEEE International
+  Conference on}, volume~1, pages 59--66. IEEE, 2008.
+
+\bibitem{mangler2010origin}
+Juergen Mangler, Peter~Paul Beran, and Erich Schikuta.
+\newblock On the origin of services using riddl for description, evolution and
+  composition of restful services.
+\newblock In {\em Cluster, Cloud and Grid Computing (CCGrid), 2010 10th
+  IEEE/ACM International Conference on}, pages 505--508. IEEE, 2010.
+
+\bibitem{kaminski2006design}
+Piotr Kaminski, Marin Litoiu, and Hausi M{\"u}ller.
+\newblock A design technique for evolving web services.
+\newblock In {\em Proceedings of the 2006 conference of the Center for Advanced
+  Studies on Collaborative research}, page~23. IBM Corp., 2006.
+
+\bibitem{le2008synchronizing}
+Zhi Le~Zou, Ru~Fang, Liang Liu, Qing~Bo Wang, and Hao Wang.
+\newblock On synchronizing with web service evolution.
+\newblock In {\em Web Services, 2008. ICWS'08. IEEE International Conference
+  on}, pages 329--336. IEEE, 2008.
+
+\bibitem{aversano2005visualizing}
+Lerina Aversano, Marcello Bruno, Massimiliano Di~Penta, Amedeo Falanga, and
+  Rita Scognamiglio.
+\newblock Visualizing the evolution of web services using formal concept
+  analysis.
+\newblock In {\em Principles of Software Evolution, Eighth International
+  Workshop on}, pages 57--60. IEEE, 2005.
+
+\bibitem{google_maps_versioning}
+Google developers.
+\newblock
+  https://developers.google.com/maps/documentation/javascript/basics\#Versioning.
+
+\bibitem{twitter_api}
+The twitter rest api, twitter developers.
+\newblock https://dev.twitter.com/docs/api.
+
+\bibitem{twitter_calendar}
+Calendar of api changes, twitter developers.
+\newblock https://dev.twitter.com/calendar.
+
+\bibitem{twitter_console}
+Exploring the twitter api, twitter developers.
+\newblock https://dev.twitter.com/console.
+
+\bibitem{facebook_api}
+Graph api, facebook developers.
+\newblock https://developers.facebook.com/docs/reference/api.
+
+\bibitem{facebook_stack_overflow}
+Facebook, stack overflow.
+\newblock http://facebook.stackoverflow.com.
+
+\end{thebibliography}

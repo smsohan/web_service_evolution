@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2012)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: paper.aux
+The style file: unsrt.bst
+Database file #1: references.bib
+Warning--empty journal in kitchenham2007guidelines
+You've used 23 entries,
+            1791 wiz_defined-function locations,
+            545 strings with 6912 characters,
+and the built_in function-call counts, 4811 in all, are:
+= -- 453
+> -- 134
+< -- 12
++ -- 57
+- -- 34
+* -- 198
+:= -- 615
+add.period$ -- 67
+call.type$ -- 23
+change.case$ -- 23
+chr.to.int$ -- 0
+cite$ -- 24
+duplicate$ -- 262
+empty$ -- 571
+format.name$ -- 34
+if$ -- 1210
+int.to.chr$ -- 0
+int.to.str$ -- 23
+missing$ -- 12
+newline$ -- 107
+num.names$ -- 12
+pop$ -- 134
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 185
+stack$ -- 0
+substring$ -- 222
+swap$ -- 103
+text.length$ -- 12
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 1
+while$ -- 38
+width$ -- 25
+write$ -- 219
+(There was 1 warning)

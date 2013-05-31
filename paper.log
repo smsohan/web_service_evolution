@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  30 MAY 2013 11:00
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  31 MAY 2013 12:05
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -303,42 +303,16 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
-
-Overfull \hbox (65.32922pt too wide) detected at line 120
-\OML/cmm/m/it/10 https \OT1/cmr/m/n/10 : \OML/cmm/m/it/10 ==en:wikipedia:org=wi
-ki=Representational[]tate[]ransfer\OT1/cmr/m/n/10 #\OML/cmm/m/it/10 cite[]ote \
-OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 Fielding \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/i
-t/10 Ch\OT1/cmr/m/n/10 5 \OMS/cmsy/m/n/10 ^^@ \OT1/cmr/m/n/10 1
- []
-
-[2]
-Overfull \hbox (131.9348pt too wide) detected at line 130
-\OML/cmm/m/it/10 https \OT1/cmr/m/n/10 : \OML/cmm/m/it/10 ==developers:facebook
-:com=blog=post=\OT1/cmr/m/n/10 2013\OML/cmm/m/it/10 =\OT1/cmr/m/n/10 05\OML/cmm
-/m/it/10 =\OT1/cmr/m/n/10 22\OML/cmm/m/it/10 =platform \OMS/cmsy/m/n/10 ^^@ \OM
-L/cmm/m/it/10 updates \OMS/cmsy/m/n/10 ^^@ ^^@\OML/cmm/m/it/10 operation \OMS/c
-msy/m/n/10 ^^@ \OML/cmm/m/it/10 developer \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10
- love=
- []
-
-[3]
-Overfull \hbox (16.25175pt too wide) detected at line 167
-\OML/cmm/m/it/10 GuidelinesforperformingSystematicLiteratureReviewsinSoftwareEn
-gineering
- []
-
+ [2]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
-[4]
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no ã in font cmr10!
-Missing character: There is no Ü in font cmr10!
+ [3] [4]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
- [5]
-Overfull \hbox (0.9326pt too wide) in paragraph at lines 213--214
+
+Overfull \hbox (0.9326pt too wide) in paragraph at lines 215--216
 \OT1/cmr/m/n/10 quire-ment drivers, Op-er-a-tional pro-cess drivers, Leg-isla-t
 ive reg-u-la-tory drivers,
  []
@@ -346,13 +320,17 @@ ive reg-u-la-tory drivers,
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
+[5]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no ã in font cmr10!
 Missing character: There is no Ü in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
-[6]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+ [6]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
@@ -363,25 +341,20 @@ Missing character: There is no ô in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
- [8]
-Overfull \hbox (118.4729pt too wide) detected at line 268
-\OML/cmm/m/it/10 OntheOriginofServices \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 Us
-ingRIDDLforDescription; EvolutionandCompositionofRESTfulServices
- []
 
-
-Overfull \hbox (2.06918pt too wide) in paragraph at lines 270--271
+Overfull \hbox (2.06918pt too wide) in paragraph at lines 272--273
 []\OT1/cmr/m/n/10 RIDDL adds XML based de-scrip-tions to REST-ful web ser-vices
 . Us-ing RIDDL,
  []
 
-[9]
+[8]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+ [9]
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
@@ -390,10 +363,24 @@ Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
 
-Overfull \hbox (34.73535pt too wide) detected at line 326
-\OML/cmm/m/it/10 https \OT1/cmr/m/n/10 : \OML/cmm/m/it/10 ==developers:google:c
-om=maps=documentation=javascript=basics\OT1/cmr/m/n/10 #\OML/cmm/m/it/10 Versio
-ning
+Overfull \hbox (6.37706pt too wide) in paragraph at lines 345--346
+\OT1/cmr/m/n/10 sion in the URL. For ex-am-ple, the web ser-vice calls to https
+://api.twitter.com/1.1/
+ []
+
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ô in font cmr10!
+
+Overfull \hbox (4.0439pt too wide) in paragraph at lines 359--360
+\OT1/cmr/m/n/10 moval of ma-jor func-tion-al-ity, back-wards com-pat-i-bil-ity,
+ Face-book prod-uct changes,
  []
 
 [11]
@@ -402,50 +389,58 @@ Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
 Missing character: There is no ‚ in font cmr10!
 Missing character: There is no Ä in font cmr10!
-Missing character: There is no ú in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ù in font cmr10!
- [12]
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
 Missing character: There is no ô in font cmr10!
-
-Overfull \hbox (4.0439pt too wide) in paragraph at lines 357--358
-\OT1/cmr/m/n/10 moval of ma-jor func-tion-al-ity, back-wards com-pat-i-bil-ity,
- Face-book prod-uct changes,
+ [12] [13] (./paper.bbl
+Overfull \hbox (67.9573pt too wide) in paragraph at lines 8--10
+[]\OT1/cmr/m/n/9 List of web ser-vice pro-to-cols, wikipedia.  http://en.wikipe
+dia.org/wiki/List[]of[]web[]service[]protocols. 
  []
 
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
-[13]
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
- [14] [15] [16] (./paper.aux) ) 
+
+Overfull \hbox (92.75128pt too wide) in paragraph at lines 16--18
+[]\OT1/cmr/m/n/9 Representational state trans-fer, wikipedia.  https://en.wikip
+edia.org/wiki/Representational[]state[]transfer. 
+ []
+
+
+Overfull \hbox (52.81317pt too wide) in paragraph at lines 20--23
+[]\OT1/cmr/m/n/9 Platform up-dates, face-book.  https://developers.facebook.com
+/blog/post/2013/05/22/platform-
+ []
+
+[14]
+Overfull \hbox (83.30739pt too wide) in paragraph at lines 98--101
+[]\OT1/cmr/m/n/9 Google de-vel-op-ers.  https://developers.google.com/maps/docu
+mentation/javascript/basics#Versioning. 
+ []
+
+
+Overfull \hbox (12.98561pt too wide) in paragraph at lines 115--117
+[]\OT1/cmr/m/n/9 Graph api, face-book de-vel-op-ers.  https://developers.facebo
+ok.com/docs/reference/api. 
+ []
+
+) [15] (./paper.aux) ) 
 Here is how much of TeX's memory you used:
- 3455 strings out of 493488
- 47974 string characters out of 3141326
- 113168 words of memory out of 3000000
- 6724 multiletter control sequences out of 15000+200000
- 10434 words of font info for 41 fonts, out of 3000000 for 9000
+ 3479 strings out of 493488
+ 48463 string characters out of 3141326
+ 113233 words of memory out of 3000000
+ 6744 multiletter control sequences out of 15000+200000
+ 10779 words of font info for 42 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 37i,6n,32p,923b,349s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/local/texlive/2012/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/pu
-blic/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmr9.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmsy10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmtt9.pfb>
-Output written on paper.pdf (16 pages, 172434 bytes).
+ 37i,6n,32p,887b,349s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/local/texlive/2012/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmbx10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmbx12.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsf
+onts/cm/cmbx9.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmr9.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmti9.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mtt9.pfb>
+Output written on paper.pdf (15 pages, 155502 bytes).
 PDF statistics:
- 92 PDF objects out of 1000 (max. 8388607)
- 64 compressed objects within 1 object stream
+ 81 PDF objects out of 1000 (max. 8388607)
+ 56 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
