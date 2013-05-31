@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  31 MAY 2013 12:05
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  31 MAY 2013 12:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -304,29 +304,30 @@ Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
  [2]
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
- [3] [4]
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
+<web_service_layers.png, id=15, 699.61375pt x 520.94624pt>
+File: web_service_layers.png Graphic file (type png)
 
-Overfull \hbox (0.9326pt too wide) in paragraph at lines 215--216
-\OT1/cmr/m/n/10 quire-ment drivers, Op-er-a-tional pro-cess drivers, Leg-isla-t
-ive reg-u-la-tory drivers,
- []
+<use web_service_layers.png>
+Package pdftex.def Info: web_service_layers.png used on input line 132.
+(pdftex.def)             Requested size: 347.12354pt x 258.47728pt.
 
+Underfull \vbox (badness 4647) has occurred while \output is active []
+
+ [3 <./web_service_layers.png>]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
-[5]
+ [4]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+ [5]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
 Missing character: There is no â in font cmr10!
 Missing character: There is no ‹ in font cmr10!
 Missing character: There is no † in font cmr10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
@@ -341,20 +342,22 @@ Missing character: There is no ™ in font cmr10!
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
 
-Overfull \hbox (2.06918pt too wide) in paragraph at lines 272--273
+Underfull \vbox (badness 5726) has occurred while \output is active []
+
+ [8]
+Overfull \hbox (2.06918pt too wide) in paragraph at lines 269--270
 []\OT1/cmr/m/n/10 RIDDL adds XML based de-scrip-tions to REST-ful web ser-vices
 . Us-ing RIDDL,
  []
 
-[8]
+[9]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
- [9]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
@@ -362,8 +365,11 @@ Missing character: There is no ™ in font cmr10!
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
-
-Overfull \hbox (6.37706pt too wide) in paragraph at lines 345--346
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+ [11]
+Overfull \hbox (6.37706pt too wide) in paragraph at lines 342--343
 \OT1/cmr/m/n/10 sion in the URL. For ex-am-ple, the web ser-vice calls to https
 ://api.twitter.com/1.1/
  []
@@ -378,19 +384,19 @@ Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
 
-Overfull \hbox (4.0439pt too wide) in paragraph at lines 359--360
+Overfull \hbox (4.0439pt too wide) in paragraph at lines 356--357
 \OT1/cmr/m/n/10 moval of ma-jor func-tion-al-ity, back-wards com-pat-i-bil-ity,
  Face-book prod-uct changes,
  []
 
-[11]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
+[12]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
- [12] [13] (./paper.bbl
+ [13] (./paper.bbl [14]
 Overfull \hbox (67.9573pt too wide) in paragraph at lines 8--10
 []\OT1/cmr/m/n/9 List of web ser-vice pro-to-cols, wikipedia.  http://en.wikipe
 dia.org/wiki/List[]of[]web[]service[]protocols. 
@@ -408,7 +414,7 @@ Overfull \hbox (52.81317pt too wide) in paragraph at lines 20--23
 /blog/post/2013/05/22/platform-
  []
 
-[14]
+
 Overfull \hbox (83.30739pt too wide) in paragraph at lines 98--101
 []\OT1/cmr/m/n/9 Google de-vel-op-ers.  https://developers.google.com/maps/docu
 mentation/javascript/basics#Versioning. 
@@ -422,25 +428,27 @@ ok.com/docs/reference/api.
 
 ) [15] (./paper.aux) ) 
 Here is how much of TeX's memory you used:
- 3479 strings out of 493488
- 48463 string characters out of 3141326
- 113233 words of memory out of 3000000
- 6744 multiletter control sequences out of 15000+200000
- 10779 words of font info for 42 fonts, out of 3000000 for 9000
+ 3489 strings out of 493488
+ 48647 string characters out of 3141326
+ 114241 words of memory out of 3000000
+ 6751 multiletter control sequences out of 15000+200000
+ 11125 words of font info for 43 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 37i,6n,32p,887b,349s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 37i,6n,32p,891b,349s stack positions out of 5000i,500n,10000p,200000b,50000s
 </usr/local/texlive/2012/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmbx10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmbx12.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmbx9.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfon
 ts/cm/cmr10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmr9.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmti9.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mtt9.pfb>
-Output written on paper.pdf (15 pages, 155502 bytes).
+/cmsy10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/
+cmti10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mti9.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
+t9.pfb>
+Output written on paper.pdf (15 pages, 206344 bytes).
 PDF statistics:
- 81 PDF objects out of 1000 (max. 8388607)
- 56 compressed objects within 1 object stream
+ 92 PDF objects out of 1000 (max. 8388607)
+ 63 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

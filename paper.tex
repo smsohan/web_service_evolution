@@ -89,13 +89,10 @@ In this paper we identify the key challenges with web service evolution such as 
 Web services offer a web-based communication mechanism between two software systems, commonly known as web service publishers and consumers. Wikipedia describes web service as follows \cite{web_service_wiki}:
 
 \begin{quote}
-A web service is a method of communication between two electronic devices over the World Wide Web. A web service is a software function provided at a network address over the web or the cloud, it is a service that is ``always on'' as in the concept of utility computing.
+``A web service is a method of communication between two electronic devices over the World Wide Web. A web service is a software function provided at a network address over the web or the cloud, it is a service that is ``always on'' as in the concept of utility computing.''
 \end{quote}
 
 For example, geographical mapping web services are consumed by many different kinds of consumers in real life such as: real-estate listing web sites, local business search portals, transit information web sites, etc. Similarly, payment processing web services are used by a multitude of consumers such as: e-commerce applications, retail stations etc.
-
-Photo (producer, consumer)
-
 
 Web services provide web-addressable endpoints for the communication between the two parties, where the consumer initiates the requests and the publisher responds to the requests. To carry out the actual communication, the web service publishers and consumers follow specific protocols. Of the many protocols that are in use today \cite{web_service_protocols_wiki}, two commonly used protocols are as follows:
 
@@ -127,15 +124,15 @@ XXXXX WHAT FOLLOWS XXXXX
 
 \section{Motivation} % (fold)
 \label{sec:motivation}
-Web services, like other software systems, need to evolve to stay on top of the bugs and ever changing requirements. For example, between May 15th 2013 and May 22nd 2013, the Facebook API team saw 238 new bugs, resolved 211 bugs and fixed 24 bugs \cite{facebook_release_note}. However, often times web services are consumed by an unknown number of consumers, and the web service publishers have little control over them. Updating a web service can be tricky in such a situation since a breaking change may upset the existing consumers. To be able to evolve in such a decoupled scenario, multiple versions of a service need to co-exist which poses both technical and business challenges in multiple fronts. At a conceptual level the following diagram shows the different aspects of a web service that need to deal with evolution challenges:
+Web services, like other software systems, need to evolve to stay on top of the bugs and ever changing requirements. For example, between May 15th 2013 and May 22nd 2013, the Facebook API team saw 238 new bugs, resolved 211 bugs and fixed 24 bugs \cite{facebook_release_note}. However, often times web services are consumed by an unknown number of consumers, and the web service publishers have little control over them. Updating a web service can be tricky in such a situation since a breaking change may upset the existing consumers. To be able to evolve in such a decoupled scenario, multiple versions of a service need to co-exist which poses both technical and business challenges in multiple fronts. At a conceptual level, Figure \ref{fig:web_service_layers} shows the different aspects of a web service that need to deal with evolution challenges:
 
-Web service publisher (QoS, SLA)  web service consumer
-Documentation                   Source code
-Testing
-Web service endpoint/address
-Web service protocol
-Service interface and source code
-Data store
+
+\begin{figure*}[ht]
+  \centering
+  \includegraphics[width=\textwidth]{web_service_layers.png}
+    \caption{Different Aspects of an Evolving Web Service}
+  \label{fig:web_service_layers}
+\end{figure*}
 
 However, there is a little to no standard approach to tackle these aspects of an evolving web service. The motivation for this research stems from the need to improve this situation.
 
@@ -168,10 +165,10 @@ We have performed a Systematic Literature Review to extract information from the
 
 \subsection{Systematic Literature Review} % (fold)
 \label{sub:systematic_literature_review}
-Kitchenham et al defines systematic review as follows:
+Kitchenham et al defines systematic review as follows \cite{kitchenham2007guidelines}:
 
 \begin{quote}
-A form of secondary study that uses a well-defined methodology to identify, analyse and interpret all available evidence related to a specific research question in a way that is unbiased and (to a degree) repeatable.
+``A form of secondary study that uses a well-defined methodology to identify, analyse and interpret all available evidence related to a specific research question in a way that is unbiased and (to a degree) repeatable.''
 \end{quote}
 We have carried out a systematic review because it helped us examining and summarizing the relevant work from the existing literature. To this regard, we have identified relevant papers from the following sources: IEEExplore, ACM Digital library:, Google scholar, Citeseer library, ScienceDirect, SpringerLink, and Google.
 
@@ -196,13 +193,13 @@ After the screening process, we had a shortlist of articles to extract informati
 In this section, we have discussed the drivers behind web service evolution from the related literature. To begin with, in \cite{treiber2009analyzing} Treiber et al provided a list of changes related to web services with their interdependencies. To identify the source and impact of a change, they categorized the stakeholders into four roles:
 
 \begin{itemize}
-  \item web service provider, who is responsible for planning and conception of the service
-  \item developer, who implements the planned service
-  \item service integrator, who integrates with external web services and
-  \item user, who actually uses the integrated application.
+  \item \textbf{web service provider}, who is responsible for planning and conception of the service
+  \item \textbf{developer}, who implements the planned service
+  \item \textbf{service integrator}, who integrates with external web services and
+  \item \textbf{user}, who actually uses the integrated application.
 \end{itemize}
 
-One or more of these roles may be played by one individual. The stakeholders take part in driving changes to a web service. The authors identified the following types of changes in a web services: Interface, Implementation, QoS, Usage, Requirement, SLA, Pre and post conditions, and Feedback.
+One or more of these roles may be played by one individual. The stakeholders take part in driving changes to a web service. The authors identified the following types of changes in a web services: \textbf{Interface, Implementation, QoS, Usage, Requirement, SLA, Pre and post conditions, and Feedback}.
 
 A change in any of the above impacts one or more of the stakeholder roles based on its type. In addition to stakeholder impacts, the sources are also interdependent on each other. For example, when a web service provider decides to change the interface, the developer needs to write the changed interface and its implementation. If the changed interface if not backward compatible, and the service integrator needs to modify the integration. The new interface and implementation may instigate a change on it’s QoS, Usage and Pre-post conditions, which may impact the end user.
 
@@ -211,8 +208,8 @@ To summarize, in this paper we see the drivers behind web service evolution, a l
 Borovskiy et al identified some drivers behind web service evolution from the perspective of an enterprise, where both the web service consumer and publisher may be part of the same organization \cite{borovskiy2008evolution}. In this regard, they categorized two classes of drivers behind the evolution of web services as follows:
 
 \begin{itemize}
-  \item Intrinsic change drivers: Poor design, Poor implementation quality
-  \item Extrinsic change drivers: Market drivers, Differentiation drivers, Business requirement drivers, Operational process drivers, Legislative regulatory drivers, User related drives
+  \item \textbf{Intrinsic change drivers}: Poor design, Poor implementation quality
+  \item \textbf{Extrinsic change drivers}: Market drivers, Differentiation drivers, Business requirement drivers, Operational process drivers, Legislative regulatory drivers, User related drives
 \end{itemize}
 
 To summarize, although the authors discussed these change drivers for enterprise web service context, we found these drivers to be relevant in a broader context and applies to non-enterprise web services.
@@ -227,10 +224,10 @@ Lublinsky compared between multiple approaches of implementing evolving web serv
 
 \begin{itemize}
 
-  \item Units of versioning: One approach to version a service is to apply a single version to all it’s methods that can be deployed as a group. Another approach is to version individual methods or operations of the service as they change, this confines the change to only specific methods and provides a finer grained versioning. However, deployment of such versioned methods are complicated and it forces the consumer to specify the service, its method name and an additional version to use for each operation.
-  \item Service changes, constituting a new version: In line with [ On Analyzing Evolutionary Changes of Web Services⋆]  Lublinsky also pointed out that a new version may be required primarily because of changes in its interface, schema of the message payload or in it’s implementation.
-  \item Service version life-cycle considerations: Based on the actual need, Lublinsky suggests adjusting the life-cycle of versions, as too many versions increase the maintenance overhead while too few versions leaves the consumers a smaller time window to upgrade.
-  \item Version deployment/access approaches: When deploying versioned services, Lublinsky compares between multiple versions deployed on the same endpoint vs. each version deployed on its own endpoint. Lublinsky points out that the former approach may introduce conflicts in names of the objects, databases and other related resources, and requires intermediate routers, which typically lowers performance and may introduce SLA complications. On the other hand, as mentioned in the paper, the latter approach provides better scalability and loose coupling between versions, but requires the consumers to use a different endpoint to target a different version.
+  \item \textbf{Units of versioning}: One approach to version a service is to apply a single version to all it’s methods that can be deployed as a group. Another approach is to version individual methods or operations of the service as they change, this confines the change to only specific methods and provides a finer grained versioning. However, deployment of such versioned methods are complicated and it forces the consumer to specify the service, its method name and an additional version to use for each operation.
+  \item \textbf{Service changes, constituting a new version}: In line with [ On Analyzing Evolutionary Changes of Web Services⋆]  Lublinsky also pointed out that a new version may be required primarily because of changes in its interface, schema of the message payload or in it’s implementation.
+  \item \textbf{Service version life-cycle considerations}: Based on the actual need, Lublinsky suggests adjusting the life-cycle of versions, as too many versions increase the maintenance overhead while too few versions leaves the consumers a smaller time window to upgrade.
+  \item \textbf{Version deployment/access approaches}: When deploying versioned services, Lublinsky compares between multiple versions deployed on the same endpoint vs. each version deployed on its own endpoint. Lublinsky points out that the former approach may introduce conflicts in names of the objects, databases and other related resources, and requires intermediate routers, which typically lowers performance and may introduce SLA complications. On the other hand, as mentioned in the paper, the latter approach provides better scalability and loose coupling between versions, but requires the consumers to use a different endpoint to target a different version.
 
 \end{itemize}
 
@@ -242,15 +239,15 @@ When multiple versions of a service are deployed at the same time, a versioning 
 To identify a specific version of a resource, Leskey suggests using a unique identifier with an accompanying explanation of how to interpret it. The versioning identifiers should be used consistently and be readily accessible and understandable to it’s consumers. In addition to this, the author also recommends specifying a policy describing compatibility between the versions so the consumers clearly understand the impacts of version changes. Because a web service is a contract between the publisher and its consumers, the policies from both sides need to be considered for its evolution. As an example, the author mentioned a generic policy as follows:
 
 \begin{quote}
-  A versioning scheme for a service may include a generic policy, such as any succeeding version identified as 1.j will be backward compatible with any 1.i previous version in the sense that results are identically generated in version 1.j for functionality that existed in previous 1.i versions.
+``A versioning scheme for a service may include a generic policy, such as any succeeding version identified as 1.j will be backward compatible with any 1.i previous version in the sense that results are identically generated in version 1.j for functionality that existed in previous 1.i versions.''
 \end{quote}
 
 The author then identified the key reasons for changes between versions such as: a) service description changes, b) changes in functions, c) changes in the interaction mechanics, and d) change of known pre and post conditions. These changes would require new versions of the service as well as accompanying any explanation of the specific changes.
 
-To locate each version, the author provided the following example URL based scheme: http:///a.b.c/services1/20080601/ , where service1 is the name of the resource and 20080601 is the date based version identifier. Given this URL scheme, the author suggests the service descriptions to dereference the URL and provide necessary details about the version so that the versioning information is transparent to the consumers.
+To locate each version, the author provided the following example URL based scheme: \emph{http:///a.b.c/services1/20080601/} , where service1 is the name of the resource and \emph{20080601} is the date based version identifier. Given this URL scheme, the author suggests the service descriptions to dereference the URL and provide necessary details about the version so that the versioning information is transparent to the consumers.
 
 \subsubsection{Implementation:}
-Once an appropriate evolution and versioning strategy is selected, the required changes need to be implemented. In this section we have discussed the implementation approaches as suggested in the literature from the perspective of two levels, 1) protocol level and 2) application level.
+Once an appropriate evolution and versioning strategy is selected, the required changes need to be implemented. In this section we have discussed the implementation approaches as suggested in the literature from the perspective of two levels, \textbf{1) protocol level and 2) application level.}
 
 \subsubsection{Protocol Level Implementation:}
 Since web services are typically based on protocols such as SOAP, REST, etc., protocol level support for evolving web services would allow for uniform standards. In \cite{wilde2004semantically} Wilde proposed a conceptual framework for SOAP web services where consumers can be forward compatible in a managed way.
@@ -275,7 +272,7 @@ RIDDL adds XML based descriptions to RESTful web services. Using RIDDL, service 
 
 Following from the protocol level implementation approaches discussed in the previous section, we have presented the application code level solution approaches in this section.
 
-Kaminski et al presented a design technique for evolving web services from the perspective of the source code implementation \cite{kaminski2006design}. They identified some key requirements for their design such as: a) backward compatibility, b) common data store, c) no code duplication, d) untangled versions, e) unconstrained evolution, and f) a visible mechanism. To summarize, the design aimed to allow for web service evolution while staying compatible with the existing clients without introducing duplication in the code or in the data store in a transparent manner.
+Kaminski et al presented a design technique for evolving web services from the perspective of the source code implementation \cite{kaminski2006design}. They identified some key requirements for their design such as: \textbf{a) backward compatibility, b) common data store, c) no code duplication, d) untangled versions, e) unconstrained evolution, and f) a visible mechanism}. To summarize, the design aimed to allow for web service evolution while staying compatible with the existing clients without introducing duplication in the code or in the data store in a transparent manner.
 
 With these requirements laid out, they proposed a design technique called ``Chain of Adapters'' for the implementation of evolving web services. The following figure shows a high level view of the design:
 
@@ -285,7 +282,7 @@ Source: \cite{kaminski2006design}
 
 In essence, the design technique can be described as follows: To start with, a web service can be developed as usual. Then, the interface of the web service is duplicated under a namespace V1. An implementation of this interface is created in the same V1 namespace that performs necessary translations on the data and delegates the methods to the original web service. This produces a snapshot of the V1 service which can be published for its consumers.
 
-Now, to evolve to V2 of the service, the changes are made to the original web service. For any breaking change, it is compensated in a V1<-->V2 adapter. This V1 <--> V2 adapter is the first of the ``Chain of Adapters'' to be used for evolution. Once the changes are complete, the interface of the original web service is duplicated into a the V2 namespace. In the same namespace, an implementation of this V2 interface delegates the calls to the original web service, while the V1<-->V2 adapter targets this new implementation. This way, a new snapshot for the V2 of the service is created.
+Now, to evolve to V2 of the service, the changes are made to the original web service. For any breaking change, it is compensated in a $\leftrightarrow$ adapter. This V1 $\leftrightarrow$ V2 adapter is the first of the ``Chain of Adapters'' to be used for evolution. Once the changes are complete, the interface of the original web service is duplicated into a the V2 namespace. In the same namespace, an implementation of this V2 interface delegates the calls to the original web service, while the $\leftrightarrow$ adapter targets this new implementation. This way, a new snapshot for the V2 of the service is created.
 
 Since the adapter compensates for all breaking changes from V1 to V2, existing V1 clients still continue to work. As the service evolves, introducing new adapters for each version would produce a chain of such adapters to ensure backward compatibility and code reuse while being able to serve multiple concurrent versions.
 
@@ -299,10 +296,10 @@ A web service involves multiple stakeholders that may be impacted by a change. S
 In \cite{le2008synchronizing} Zou et al presents a technique to generate consumer specific changelogs for evolving SOAP web services. When a new version of a web service is published, it typically accompanies a custom formatted, often HTML based, documentation of it’s methods and parameters. For existing consumers, this may require a significant effort to identify the impacts of the new version specific to their usage by looking at the potentially large documentation. To address this problem, the authors suggested creating customized release notes for each consumer based on their usage pattern in the following steps:
 
 \begin{itemize}
-  \item Service invocation monitoring: a monitoring system is needed to track the usage pattern of each consumer so when a service is changed, it can identify specific areas of interest for a consumer
-  \item Service difference analysis: Since SOAP services are described using XML based WSDL files, the differences between the two versions such as addition, removal or modification can be analyzed by comparing the WSDL files
-  \item Release note customization: The release note can then be tailored for each consumer by using the data collected at step 1 to only include relevant changes per customer
-  \item Code release note linkage: Using the customized release note from step 3, it is possible automatically inspect the consumer code and discover fragments of the code that need to change for the new version.
+  \item \textbf{Service invocation monitoring}: a monitoring system is needed to track the usage pattern of each consumer so when a service is changed, it can identify specific areas of interest for a consumer
+  \item \textbf{Service difference analysis}: Since SOAP services are described using XML based WSDL files, the differences between the two versions such as addition, removal or modification can be analyzed by comparing the WSDL files
+  \item \textbf{Release note customization}: The release note can then be tailored for each consumer by using the data collected at step 1 to only include relevant changes per customer
+  \item \textbf{Code release note linkage}: Using the customized release note from step 3, it is possible automatically inspect the consumer code and discover fragments of the code that need to change for the new version.
 \end{itemize}
 
 Aversano et al provided an alternate approach to communicate changes in SOAP web services using a graphical way in \cite{aversano2005visualizing}. To construct the graphical representation, the authors extracted meta information about methods and parameters for SOAP web services from the WSDL files. This meta information is then presented in a graph to visualize the service with its methods and parameters. The graph can be used to visually communicate the similarities and differences among the subsequent versions of the same service.
@@ -328,9 +325,9 @@ A comprehensive review of all the real world web services is beyond the scope of
 Google Maps provides a JavaScript based web service for it’s consumers and updates the service to provide ``new features, bug fixes and performance improvements'' \cite{google_maps_versioning}. Their versioning policy offers the following versions:
 
 \begin{itemize}
-  \item Experimental version: This version has all the latest features, bug fixes and improvements. But this version is not guaranteed to be feature stable. Consumers can remain on the edge of the service by using this version.
-  \item Release version: From the the experimental version, every quarter, a feature stable version of the service is cut and tagged as a ``release'' version. These release versions may receive bug fixes but the features remain stable.
-  \item Previously released or Frozen version: Every time a new ``release version'' is tagged, the oldest existing release version is ``frozen'', so no new features or bug fixes are applied to ensure it remains completely feature stable.
+  \item \textbf{Experimental version}: This version has all the latest features, bug fixes and improvements. But this version is not guaranteed to be feature stable. Consumers can remain on the edge of the service by using this version.
+  \item \textbf{Release version}: From the the experimental version, every quarter, a feature stable version of the service is cut and tagged as a ``release'' version. These release versions may receive bug fixes but the features remain stable.
+  \item \textbf{Previously released or Frozen version}: Every time a new ``release version'' is tagged, the oldest existing release version is ``frozen'', so no new features or bug fixes are applied to ensure it remains completely feature stable.
 \end{itemize}
 
 The consumers can specify the desired version using a version parameter in the URL. For example, to use the version 3.12, the following URL can be used https://maps.googleapis.com/maps/api/js?v=3.12 In absence of a version parameter, by default the experimental version is used.
@@ -353,7 +350,7 @@ The developer portal is also used to record issues and collect feedback from the
 Unlike the previous approaches, Facebook Graph API on the other hand uses a different approach for it’s evolution. Facebook Graph API is the primary web service to retrieve and post data to Facebook \cite{facebook_api}. They have a 90-day breaking change policy stated as follows:
 
 \begin{quote}
-Platform changes that would require a code change from developers (security and privacy changes excluded) will be announced at least 90 days before the change goes into effect.
+``Platform changes that would require a code change from developers (security and privacy changes excluded) will be announced at least 90 days before the change goes into effect.''
 \end{quote}
 
 They also identified some example of the change drivers such as, change/removal of major functionality, backwards compatibility, Facebook product changes, and privacy and security related changes. For each new version, instead of a URL based addressing scheme, Facebook allows the consumers to enable the changes by pushing a button on the Facebook website. Using the button, the service consumers, aka platform developers, can opt-in to migrate to a new release to get an early look on the impact of the breaking changes specific to their use case and take necessary actions within the 90-day period.
@@ -427,9 +424,9 @@ From our review of the existing literature and industry practices, we have alrea
 
 \section{Conclusion} % (fold)
 \label{sec:conclusion}
-Web services evolve for real world reasons, such as to produce business value, fix defects, adapt new technology and so on. However, there is little to no built-in support for evolving web services in the commonly used technologies of today. In this paper, we identified the reasons that cause a web service to change, techniques to implement the change and the key challenges associated with the evolving web services. Understanding these aspects of an evolving web service helped us to identify the opportunity for innovative future work.
+Web services evolve for real world reasons, such as to produce business value, fix defects, adapt new technology and so on. However, there is little to no built-in support for evolving web services in the commonly used technologies of today. In this paper, we identified the reasons that cause a web service to change, techniques to implement the change and the key challenges associated with the evolving web services. Understanding these aspects of an evolving web service helped us to identify some opportunities for innovative future work.
 
-From our systematic literature reviews, we have identified the change drivers behind evolving web services and several approaches to deal with the various aspects of an evolving web service, such as deployment, versioning, protocol and source code level implementation, documentation and communication. In addition to the literature review, we have found different approaches to deal with these challenges from three real world popular web services.
+In this paper, from our systematic literature reviews, we have identified the change drivers behind evolving web services and several approaches to deal with the various aspects of an evolving web service, such as deployment, versioning, protocol and source code level implementation, documentation and communication. In addition to the literature review, we have found different approaches to deal with these challenges from three real world popular web services.
 
 Based on the review, we have summarized our findings of the key challenges with evolutionary web services in four high level categories a) Deployment, b) Implementation, c) Documentation and, d) Communication. For each of these categories, we have compiled a shortlist of challenges in question forms. This list of questions can be treated as a checklist for working on evolving web services. We have also discussed different approaches to solve some of the challenges from our review of the existing literature and industry practices. In our future work, we aim to reconcile and augment these fragmented solutions to provide a standard approach and tool support for evolving web services.
 % section conclusion (end)
