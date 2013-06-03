@@ -39,6 +39,12 @@ Martin Treiber, Hong-Linh Truong, and Schahram Dustdar.
 \newblock In {\em Service-Oriented Computing--ICSOC 2008 Workshops}, pages
   284--297. Springer, 2009.
 
+\bibitem{laskey2008considerations}
+Ken Laskey.
+\newblock Considerations for soa versioning.
+\newblock In {\em Enterprise Distributed Object Computing Conference Workshops,
+  2008 12th}, pages 333--337. IEEE, 2008.
+
 \bibitem{borovskiy2008evolution}
 Vadym Borovskiy and Alexander Zeier.
 \newblock Evolution management of enterprise web services.
@@ -49,12 +55,6 @@ Vadym Borovskiy and Alexander Zeier.
 Boris Lublinsky.
 \newblock Versioning in soa.
 \newblock {\em Microsoft Architect Journal, April}, 2007.
-
-\bibitem{laskey2008considerations}
-Ken Laskey.
-\newblock Considerations for soa versioning.
-\newblock In {\em Enterprise Distributed Object Computing Conference Workshops,
-  2008 12th}, pages 333--337. IEEE, 2008.
 
 \bibitem{wilde2004semantically}
 Erik Wilde.
@@ -103,17 +103,25 @@ Google developers.
 The twitter rest api, twitter developers.
 \newblock https://dev.twitter.com/docs/api.
 
-\bibitem{twitter_calendar}
-Calendar of api changes, twitter developers.
-\newblock https://dev.twitter.com/calendar.
+\bibitem{facebook_api}
+Graph api, facebook developers.
+\newblock https://developers.facebook.com/docs/reference/api.
+
+\bibitem{google_maps_services}
+Google maps api web services.
+\newblock https://developers.google.com/maps/documentation/webservices/.
 
 \bibitem{twitter_console}
 Exploring the twitter api, twitter developers.
 \newblock https://dev.twitter.com/console.
 
-\bibitem{facebook_api}
-Graph api, facebook developers.
-\newblock https://developers.facebook.com/docs/reference/api.
+\bibitem{google_maps_forum}
+Google maps api web services.
+\newblock https://developers.google.com/maps/documentation/webservices/forum.
+
+\bibitem{twitter_calendar}
+Calendar of api changes, twitter developers.
+\newblock https://dev.twitter.com/calendar.
 
 \bibitem{facebook_stack_overflow}
 Facebook, stack overflow.
