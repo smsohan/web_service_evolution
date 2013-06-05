@@ -192,7 +192,7 @@ We searched the aforementioned sources using this query in the title, abstract a
   SpringerLink & Title & 15
 \end{tabular}
 
-From the search results, we performed a primary screening and selected 21 papers after reading the abstracts. Then, for the remaining articles, we read the full paper as long as it was found relevant, i.e. only if it contained topics about the evolution of web services. The resulting list is composed of \cite{kitchenham2007guidelines} \cite{petersen2008systematic} \cite{treiber2009analyzing} \cite{borovskiy2008evolution} \cite{lublinsky2007versioning} \cite{laskey2008considerations} \cite{wilde2004semantically} \cite{leitner2008end} \cite{mangler2010origin} \cite{kaminski2006design} \cite{le2008synchronizing} \cite{aversano2005visualizing}.
+From the search results, we performed a primary screening and selected 21 papers after reading the abstracts. Then, for the remaining articles, we read the full paper as long as it was found relevant, i.e. only if it contained topics about the evolution of web services. The resulting list is composed of \cite{kitchenham2007guidelines} \cite{petersen2008systematic} \cite{treiber2009analyzing} \cite{borovskiy2008evolution} \cite{lublinsky2007versioning} \cite{laskey2008considerations} \cite{wilde2004semantically} \cite{fang2007version} \cite{leitner2008end} \cite{mangler2010origin} \cite{kaminski2006design} \cite{le2008synchronizing} \cite{aversano2005visualizing}.
 
 In the next section, we list and discuss our findings from these selected papers in light of the research questions.
 
@@ -220,7 +220,7 @@ The triangulation of the findings from the systematic literature review and the 
 
 \subsubsection{Why Do Web Services Evolve?} % (fold)
 \label{sub:why_do_web_services_change}
-In this section, we have discussed the drivers behind web service evolution from the related literature. To begin with, in \cite{treiber2009analyzing} Treiber et al. provided a list of changes related to web services with their interdependencies. To identify the source and impact of a change, they categorized the stakeholders into four roles:
+In this section, we have listed the drivers behind web service evolution as discussed in 3 of the selected papers. To begin with, in \cite{treiber2009analyzing} Treiber et al. provided a list of changes related to web services with their interdependencies. To identify the source and impact of a change, they categorized the stakeholders into four roles:
 
 \begin{itemize}
   \item \textbf{web service provider}, who is responsible for planning and conception of the service
@@ -246,7 +246,7 @@ A change in a web service impacts one or more of the stakeholder roles based on 
 
 \subsubsection{How to evolve the web services?} % (fold)
 \label{sub:how_to_evolve_the_web_services_}
-Now that we have listed the drivers behind web service evolution, next we present the different approaches to tackle web service evolution based on the existing literature.
+Now that we have listed the drivers behind web service evolution, next we present the different approaches to tackle web service evolution based on 6 of the selected papers.
 
 \subsubsection{Versioning:} % (fold)
 Lublinsky compared between multiple approaches of implementing evolving web services based on different dimensions as follows \cite{lublinsky2007versioning}.
@@ -279,7 +279,7 @@ Since web services typically follow a protocols such as SOAP, REST, etc., protoc
 
 At it’s core, the framework includes open and extensible XML schemas so the consumers of old version can work with the schema in a newer version. In addition to this, the framework recommends using a set of custom extensions to the XML schema. These extensions can be as simple as XML tags such as mustUnderstand, mayIgnore or some complex ones to suit the specific use case in hand. But irrespective of their actual usage, an accompanying guideline on their processing rules need to be provided. Using the approach of this framework, the consumers of the web service can attain a predictable level of ``graceful degradation'' as the service evolves.
 
-Using a similar approach but instead of arbitrary custom tags to extend the schema, Fang et al. provides a concrete list of six XML nodes to create a version-aware service model for SOAP web services [A Version-aware Approach for Web Service Directory]. They introduced extensions to WSDL and UDDI to tackle evolving web services. These extensions are composed of six XML nodes: \textbf{1) version name, 2 ) version description, 3) startTime of the version, 4) endTime of the version, 5) alias such as (new, current etc) of the version name and, 6) original version that preceded it}.
+Using a similar approach but instead of arbitrary custom tags to extend the schema, Fang et al. provides a concrete list of six XML nodes to create a version-aware service model for SOAP web services \cite{fang2007version}. They introduced extensions to WSDL and UDDI to tackle evolving web services. These extensions are composed of six XML nodes: \textbf{1) version name, 2 ) version description, 3) startTime of the version, 4) endTime of the version, 5) alias such as (new, current etc) of the version name and, 6) original version that preceded it}.
 
 With the help of this versioning description of the service, a consumer can find and register for a target version through a service registry. The server can publish events as new a version of a service is deployed and the registered consumers can subscribe to these events. When a new version is released, the consumer gets notified about the change and can self update if the changes are backward compatible. The authors discussed an example implementation of this approach and demonstrated that using this approach SOAP services can be versioned and future changes can be communicated to the consumers.
 
@@ -323,7 +323,7 @@ As the service evolves, introducing new adapters for each version would produce 
 The ``Chain of Adapters'' technique addresses their requirements, but they mentioned some caveats. For example, the adapters need to ensure all breaking changes are compensated, which my need for a separate data store when fields are removed from the datastore on subsequent versions. Also, this chain effectively connects all the versions, so a bug or it’s fix on one version may have impact on all the versions.
 
 \subsubsection{Communication:}
-A change in a web service may impact multiple stakeholders. So, it is important to communicate the changes and their impacts to the stakeholders as the service evolves. In this section, we have discussed the suggested ways to effectively communicate about the changes from the existing literature.
+A change in a web service may impact multiple stakeholders. So, it is important to communicate the changes and their impacts to the stakeholders as the service evolves. In this section, we have discussed 2 of the selected papers as they suggested ways to effectively communicate the evolution of web services.
 
 In \cite{le2008synchronizing} Zou et al. presents a technique to generate consumer specific changelogs for evolving SOAP web services. For existing consumers, the authors presented an approach where a consumer specific changelog can be generated based on their usage pattern of the service. The approach is described below:
 

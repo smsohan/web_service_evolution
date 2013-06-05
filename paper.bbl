@@ -72,6 +72,13 @@ Erik Wilde.
 \newblock Semantically extensible schemas for web service evolution.
 \newblock In {\em Web Services}, pages 30--45. Springer, 2004.
 
+\bibitem{fang2007version}
+Ru~Fang, Linh Lam, Liana Fong, David Frank, Christopher Vignola, Ying Chen, and
+  Nan Du.
+\newblock A version-aware approach for web service directory.
+\newblock In {\em Web Services, 2007. ICWS 2007. IEEE International Conference
+  on}, pages 406--413. IEEE, 2007.
+
 \bibitem{leitner2008end}
 Philipp Leitner, Anton Michlmayr, Florian Rosenberg, and Schahram Dustdar.
 \newblock End-to-end versioning support for web services.
