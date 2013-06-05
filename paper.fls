@@ -104,9 +104,9 @@ INPUT /usr/local/texlive/2012/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm
 OUTPUT paper.pdf
 INPUT /usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT /usr/local/texlive/2012/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm
-INPUT web_service_layers.png
-INPUT ./web_service_layers.png
-INPUT ./web_service_layers.png
+INPUT web_service_aspects.png
+INPUT ./web_service_aspects.png
+INPUT ./web_service_aspects.png
 INPUT /usr/local/texlive/2012/texmf-dist/fonts/tfm/public/cm/cmti10.tfm
 INPUT vresco.png
 INPUT ./vresco.png

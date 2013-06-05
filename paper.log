@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  5 JUN 2013 12:46
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  5 JUN 2013 17:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -300,39 +300,46 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 
 
 {/usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2]
-<web_service_layers.png, id=15, 699.61375pt x 520.94624pt>
-File: web_service_layers.png Graphic file (type png)
+<web_service_aspects.png, id=15, 702.625pt x 359.3425pt>
+File: web_service_aspects.png Graphic file (type png)
 
-<use web_service_layers.png>
-Package pdftex.def Info: web_service_layers.png used on input line 137.
-(pdftex.def)             Requested size: 347.12354pt x 258.47728pt.
- [3 <./web_service_layers.png>] [4] [5]
+<use web_service_aspects.png>
+Package pdftex.def Info: web_service_aspects.png used on input line 137.
+(pdftex.def)             Requested size: 347.12354pt x 177.53238pt.
+
+Underfull \vbox (badness 3386) has occurred while \output is active []
+
+ [3 <./web_service_aspects.png>] [4] [5]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
- [6]
-[7]
+ [6] [7]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
- <vresco.png, id=35, 793.96625pt x 526.96875pt>
+
+<vresco.png, id=36, 793.96625pt x 526.96875pt>
 File: vresco.png Graphic file (type png)
  <use vresco.png>
 Package pdftex.def Info: vresco.png used on input line 297.
 (pdftex.def)             Requested size: 277.89235pt x 184.44182pt.
- [8]
+
 Overfull \hbox (2.06918pt too wide) in paragraph at lines 307--308
 []\OT1/cmr/m/n/10 RIDDL adds XML based de-scrip-tions to REST-ful web ser-vices
 . Us-ing RIDDL,
  []
 
-<chain_of_adapters.png, id=39, 515.9275pt x 313.17pt>
+
+Underfull \vbox (badness 3601) has occurred while \output is active []
+
+ [8]
+<chain_of_adapters.png, id=40, 515.9275pt x 313.17pt>
 File: chain_of_adapters.png Graphic file (type png)
 
 <use chain_of_adapters.png>
@@ -396,7 +403,7 @@ maps/documentation/webservices/forum.
 ) [15] (./paper.aux) ) 
 Here is how much of TeX's memory you used:
  3504 strings out of 493488
- 48908 string characters out of 3141326
+ 48913 string characters out of 3141326
  112255 words of memory out of 3000000
  6764 multiletter control sequences out of 15000+200000
  11125 words of font info for 43 fonts, out of 3000000 for 9000
@@ -412,7 +419,7 @@ ts/cm/cmr10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts
 cmti10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mti9.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
 t9.pfb>
-Output written on paper.pdf (15 pages, 255759 bytes).
+Output written on paper.pdf (15 pages, 257740 bytes).
 PDF statistics:
  94 PDF objects out of 1000 (max. 8388607)
  63 compressed objects within 1 object stream
