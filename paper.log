@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  3 JUN 2013 10:39
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  5 JUN 2013 10:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -304,113 +304,107 @@ File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 File: web_service_layers.png Graphic file (type png)
 
 <use web_service_layers.png>
-Package pdftex.def Info: web_service_layers.png used on input line 131.
+Package pdftex.def Info: web_service_layers.png used on input line 137.
 (pdftex.def)             Requested size: 347.12354pt x 258.47728pt.
-
-Underfull \vbox (badness 1158) has occurred while \output is active []
-
- [3 <./web_service_layers.png>] [4]
+ [3] [4 <./web_service_layers.png>] [5]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
- [5]
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
- [6] [7]
-Missing character: There is no â in font cmr10!
-Missing character: There is no € in font cmr10!
-Missing character: There is no ™ in font cmr10!
+ [6]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
 
-<vresco.png, id=35, 793.96625pt x 526.96875pt>
+[7]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+ [8]
+Missing character: There is no â in font cmr10!
+Missing character: There is no € in font cmr10!
+Missing character: There is no ™ in font cmr10!
+ <vresco.png, id=38, 793.96625pt x 526.96875pt>
 File: vresco.png Graphic file (type png)
  <use vresco.png>
-Package pdftex.def Info: vresco.png used on input line 272.
+Package pdftex.def Info: vresco.png used on input line 290.
 (pdftex.def)             Requested size: 347.12354pt x 230.39548pt.
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
 
-Underfull \vbox (badness 5726) has occurred while \output is active []
-
- [8]
-Overfull \hbox (2.06918pt too wide) in paragraph at lines 282--283
+Overfull \hbox (2.06918pt too wide) in paragraph at lines 300--301
 []\OT1/cmr/m/n/10 RIDDL adds XML based de-scrip-tions to REST-ful web ser-vices
 . Us-ing RIDDL,
  []
 
-<chain_of_adapters.png, id=39, 515.9275pt x 313.17pt>
+[9 <./vresco.png>] <chain_of_adapters.png, id=42, 515.9275pt x 313.17pt>
 File: chain_of_adapters.png Graphic file (type png)
 
 <use chain_of_adapters.png>
-Package pdftex.def Info: chain_of_adapters.png used on input line 294.
+Package pdftex.def Info: chain_of_adapters.png used on input line 312.
 (pdftex.def)             Requested size: 347.12354pt x 210.71161pt.
- [9 <./vresco.png>]
+ [10 <./chain_of_adapters.png>]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
- [10 <./chain_of_adapters.png>]
-[11]
-Overfull \hbox (7.65393pt too wide) in paragraph at lines 357--358
+ [11] [12]
+Overfull \hbox (7.65393pt too wide) in paragraph at lines 375--376
 \OT1/cmr/m/n/10 the fol-low-ing URL can be used https://maps.googleapis.com/map
 s/api/js?v=3.12.
  []
 
-[12]
+[13]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
- [13] [14] (./paper.bbl
-Overfull \hbox (67.9573pt too wide) in paragraph at lines 8--10
+ [14] (./paper.bbl
+Overfull \hbox (67.9573pt too wide) in paragraph at lines 12--14
 []\OT1/cmr/m/n/9 List of web ser-vice pro-to-cols, wikipedia.  http://en.wikipe
 dia.org/wiki/List[]of[]web[]service[]protocols. 
  []
 
-
-Overfull \hbox (92.75128pt too wide) in paragraph at lines 16--18
+[15]
+Overfull \hbox (92.75128pt too wide) in paragraph at lines 27--29
 []\OT1/cmr/m/n/9 Representational state trans-fer, wikipedia.  https://en.wikip
 edia.org/wiki/Representational[]state[]transfer. 
  []
 
 
-Overfull \hbox (52.81317pt too wide) in paragraph at lines 20--23
+Overfull \hbox (52.81317pt too wide) in paragraph at lines 31--34
 []\OT1/cmr/m/n/9 Platform up-dates, face-book.  https://developers.facebook.com
 /blog/post/2013/05/22/platform-
  []
 
-[15]
-Overfull \hbox (83.30739pt too wide) in paragraph at lines 98--101
+
+Overfull \hbox (83.30739pt too wide) in paragraph at lines 102--105
 []\OT1/cmr/m/n/9 Google de-vel-op-ers.  https://developers.google.com/maps/docu
 mentation/javascript/basics#Versioning. 
  []
 
 
-Overfull \hbox (12.98561pt too wide) in paragraph at lines 107--109
+Overfull \hbox (12.98561pt too wide) in paragraph at lines 111--113
 []\OT1/cmr/m/n/9 Graph api, face-book de-vel-op-ers.  https://developers.facebo
 ok.com/docs/reference/api. 
  []
 
 
-Overfull \hbox (61.19781pt too wide) in paragraph at lines 111--113
+Overfull \hbox (61.19781pt too wide) in paragraph at lines 115--117
 []\OT1/cmr/m/n/9 Google maps api web ser-vices.  https://developers.google.com/
 maps/documentation/webservices/. 
  []
 
 
-Overfull \hbox (85.11432pt too wide) in paragraph at lines 119--121
+Overfull \hbox (85.11432pt too wide) in paragraph at lines 123--125
 []\OT1/cmr/m/n/9 Google maps api web ser-vices.  https://developers.google.com/
 maps/documentation/webservices/forum. 
  []
 
 ) [16] (./paper.aux) ) 
 Here is how much of TeX's memory you used:
- 3506 strings out of 493488
- 48999 string characters out of 3141326
- 113298 words of memory out of 3000000
- 6766 multiletter control sequences out of 15000+200000
+ 3507 strings out of 493488
+ 49016 string characters out of 3141326
+ 113302 words of memory out of 3000000
+ 6767 multiletter control sequences out of 15000+200000
  11125 words of font info for 43 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
  37i,6n,32p,958b,349s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -424,7 +418,7 @@ ts/cm/cmr10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts
 cmti10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mti9.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
 t9.pfb>
-Output written on paper.pdf (16 pages, 255864 bytes).
+Output written on paper.pdf (16 pages, 257113 bytes).
 PDF statistics:
  97 PDF objects out of 1000 (max. 8388607)
  65 compressed objects within 1 object stream

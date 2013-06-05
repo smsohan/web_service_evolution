@@ -86,13 +86,19 @@ Service-oriented Systems often rely on integrating software systems that are dev
 
 \section{Introduction}
 
-Web services offer a web-based communication mechanism between two software systems, commonly known as web service publishers and consumers. Wikipedia describes web service as follows \cite{web_service_wiki}:
+Web services offer a web-based communication mechanism between two software systems, commonly known as web service publishers and consumers. W3C defines web services as follows \cite{w3c_web_service}:
+
+\begin{quote}
+``A Web Service is a software application identified by a URI [IETF RFC 2396], whose interfaces and binding are capable of being defined, described and discovered by XML artifacts and supports direct interactions with other software applications using XML based messages via Internet-based protocols.''
+\end{quote}
+
+However, in todays technology multiple messaging formats in addition to XML are used. Wikipedia provides a generic definition of web services as follows: \cite{web_service_wiki}:
 
 \begin{quote}
 ``A web service is a method of communication between two electronic devices over the World Wide Web. A web service is a software function provided at a network address over the web or the cloud, it is a service that is ``always on'' as in the concept of utility computing.''
 \end{quote}
 
-For example, geographical mapping web services are consumed by many different kinds of consumers in real life such as: real-estate listing web sites, local business search portals, transit information web sites, etc. Similarly, payment processing web services are used by a multitude of consumers such as: e-commerce applications, retail stations etc.
+For example, a geographical mapping web service may be consumed by many different kinds of consumers in real life such as: real-estate listing web sites, local business search portals, transit information web sites, etc. Similarly, payment processing web services are used by a multitude of consumers such as: e-commerce applications, retail stations etc.
 
 To carry out the actual communication, the web service publishers and consumers follow specific protocols. Of the many protocols that are in use today \cite{web_service_protocols_wiki}, two commonly used protocols are as follows:
 
@@ -113,7 +119,7 @@ A SOAP web service is composed of one or more operations or methods. SOAP XML me
 
 \subsection{RESTful Web Services} % (fold)
 \label{sub:restful_web_services}
-Being an XML based protocol, SOAP messages are often verbose. Also, the additional header information introduces communication overheads. On the other hand, RESTful web services provide a lightweight and flexible approach, where the HTTP protocol stack is leveraged without imposing constraints on the actual format of the messaging.
+Being an XML based protocol, SOAP messages are often verbose. Also, the additional header information introduces communication overheads. On the other hand, RESTful web services gained popularity with the rise of cloud computing as they provide a lightweight and flexible approach \cite{mangler2010origin}, where the HTTP protocol stack is leveraged without imposing constraints on the actual format of the messaging.
 
 The term Representational State Transfer (REST) was introduced by Roy Fielding \cite{rest_wiki} and is used interchangeably as RESTful web service or Web API. In brief, REST is an implementation for web services where user defined ``resources'' are created, accessed, modified and deleted utilizing the various features of the HTTP stack such as caching, security, layering and different request methods (GET, POST, PUT, DELETE etc.), content types.
 
@@ -168,13 +174,25 @@ Kitchenham et al. defines systematic review as follows \cite{kitchenham2007guide
 \begin{quote}
 ``A form of secondary study that uses a well-defined methodology to identify, analyse and interpret all available evidence related to a specific research question in a way that is unbiased and (to a degree) repeatable.''
 \end{quote}
-We have carried out a systematic review because it helped us examining and summarizing the relevant work from the existing literature. To this regard, we have identified relevant papers from the following sources: IEEExplore, ACM Digital library:, Google scholar, Citeseer library, ScienceDirect, SpringerLink, and Google.
+We have carried out a systematic review because it helped us examining and summarizing the relevant work from the existing literature. To this regard, we have identified relevant papers from the following sources: IEEExplore, ACM Digital library, Google Scholar, Citeseer library, ScienceDirect, and SpringerLink.
 
-To identify the relevant papers from these sources we have performed keyword searches. As mentioned in \cite{petersen2008systematic}, keywording is a two step process, 1) extracting keywords from reading the abstracts and, 2) combining keywords from different papers. At step 1, we initially searched for the papers containing the terms ``web service''. We have seen repeated mentions of the terms Service Oriented Architecture or SOA, SOAP, Web API and REST to denote similar concepts in these papers. In addition to this, we have expanded the word ``change'' with its commonly used English synonyms. At step 2, we combined the keywords and formed the following pseudo search query:
+To identify the relevant papers from these sources we have performed keyword searches. As mentioned in \cite{petersen2008systematic}, keywording is a two step process, 1) extracting keywords from reading the abstracts and, 2) combining keywords from different papers. At step 1, we initially searched for the papers containing the terms ``web service''. We have seen repeated mentions of the terms Service Oriented Architecture or SOA, SOAP, Web API and REST to denote similar concepts in these papers. In addition to this, we have expanded the word ``evolution'' with its commonly used English synonyms. At step 2, we combined the keywords and formed the following pseudo search query:
 
-\textbf{(web service OR SOA OR SOC OR SOAP OR REST OR Web API)  AND (change OR evolve OR evolution OR version OR update OR Adapt OR versioning)}
+\textbf{(``Web Service'' OR SOA OR SOAP OR RESTful OR ``Web API'')  AND (evolve OR evolution OR versioning)}
 
-We searched the aforementioned sources using this query on the full contents of the articles, ignoring their publication date since the topic of web service is a relatively new one. From the search results, we performed a primary screening after reading the abstracts. Then, for the remaining articles, we read the full paper as long as it was found relevant, i.e. only if it contained topics about the evolution of web services.
+We searched the aforementioned sources using this query in the title, abstract and keywords of the published articles. However, the sources offer different search capabilities and attempts were made to tune the queries based on the capabilities of a source. For example, only article titles were searched on Google Scholar and SpringerLink as they don't allow search in abstracts at the time of writing this paper. We found the following number of matches from the sources including duplicates:
+
+\begin{tabular}{l c r}
+  Source & Fields Searched & Number of Matches \\
+  \hline
+  IEEExplore & Title, Abstract & 224 \\
+  Google Scholar & Title & 130 \\
+  ACM Digital Library & Title, Abstract & 235 \\
+  ScienceDirect & Title, Abstract, Keywords & 54 \\
+  SpringerLink & Title & 15
+\end{tabular}
+
+From the search results, we performed a primary screening and selected 21 papers after reading the abstracts. Then, for the remaining articles, we read the full paper as long as it was found relevant, i.e. only if it contained topics about the evolution of web services. The resulting list is composed of \cite{kitchenham2007guidelines} \cite{petersen2008systematic} \cite{treiber2009analyzing} \cite{borovskiy2008evolution} \cite{lublinsky2007versioning} \cite{laskey2008considerations} \cite{wilde2004semantically} \cite{leitner2008end} \cite{mangler2010origin} \cite{kaminski2006design} \cite{le2008synchronizing} \cite{aversano2005visualizing}.
 
 After the screening process, we had a shortlist of articles to extract information from. In the next paragraphs, we discuss the findings from these sources in light of the research questions.
 

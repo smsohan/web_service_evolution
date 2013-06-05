@@ -1,5 +1,9 @@
 \begin{thebibliography}{10}
 
+\bibitem{w3c_web_service}
+Web service description requirements, w3c.
+\newblock http://www.w3.org/TR/ws-desc-reqs/.
+
 \bibitem{web_service_wiki}
 Web service, wikipedia.
 \newblock http://en.wikipedia.org/wiki/Web\_service.
@@ -11,6 +15,13 @@ List of web service protocols, wikipedia.
 \bibitem{soap_wiki}
 Soap, wikipedia.
 \newblock http://en.wikipedia.org/wiki/SOAP.
+
+\bibitem{mangler2010origin}
+Juergen Mangler, Peter~Paul Beran, and Erich Schikuta.
+\newblock On the origin of services using riddl for description, evolution and
+  composition of restful services.
+\newblock In {\em Cluster, Cloud and Grid Computing (CCGrid), 2010 10th
+  IEEE/ACM International Conference on}, pages 505--508. IEEE, 2010.
 
 \bibitem{rest_wiki}
 Representational state transfer, wikipedia.
@@ -39,12 +50,6 @@ Martin Treiber, Hong-Linh Truong, and Schahram Dustdar.
 \newblock In {\em Service-Oriented Computing--ICSOC 2008 Workshops}, pages
   284--297. Springer, 2009.
 
-\bibitem{laskey2008considerations}
-Ken Laskey.
-\newblock Considerations for soa versioning.
-\newblock In {\em Enterprise Distributed Object Computing Conference Workshops,
-  2008 12th}, pages 333--337. IEEE, 2008.
-
 \bibitem{borovskiy2008evolution}
 Vadym Borovskiy and Alexander Zeier.
 \newblock Evolution management of enterprise web services.
@@ -56,6 +61,12 @@ Boris Lublinsky.
 \newblock Versioning in soa.
 \newblock {\em Microsoft Architect Journal, April}, 2007.
 
+\bibitem{laskey2008considerations}
+Ken Laskey.
+\newblock Considerations for soa versioning.
+\newblock In {\em Enterprise Distributed Object Computing Conference Workshops,
+  2008 12th}, pages 333--337. IEEE, 2008.
+
 \bibitem{wilde2004semantically}
 Erik Wilde.
 \newblock Semantically extensible schemas for web service evolution.
@@ -66,13 +77,6 @@ Philipp Leitner, Anton Michlmayr, Florian Rosenberg, and Schahram Dustdar.
 \newblock End-to-end versioning support for web services.
 \newblock In {\em Services Computing, 2008. SCC'08. IEEE International
   Conference on}, volume~1, pages 59--66. IEEE, 2008.
-
-\bibitem{mangler2010origin}
-Juergen Mangler, Peter~Paul Beran, and Erich Schikuta.
-\newblock On the origin of services using riddl for description, evolution and
-  composition of restful services.
-\newblock In {\em Cluster, Cloud and Grid Computing (CCGrid), 2010 10th
-  IEEE/ACM International Conference on}, pages 505--508. IEEE, 2010.
 
 \bibitem{kaminski2006design}
 Piotr Kaminski, Marin Litoiu, and Hausi M{\"u}ller.
