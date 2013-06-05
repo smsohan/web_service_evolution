@@ -105,6 +105,11 @@ Lerina Aversano, Marcello Bruno, Massimiliano Di~Penta, Amedeo Falanga, and
 \newblock In {\em Principles of Software Evolution, Eighth International
   Workshop on}, pages 57--60. IEEE, 2005.
 
+\bibitem{uddi_wiki}
+Universal description discovery and integration, wikipedia.
+\newblock
+  http://en.wikipedia.org/wiki/Universal\_Description\_Discovery\_and\_Integration.
+
 \bibitem{google_maps_versioning}
 Google developers.
 \newblock
@@ -130,12 +135,12 @@ Exploring the twitter api, twitter developers.
 Google maps api web services.
 \newblock https://developers.google.com/maps/documentation/webservices/forum.
 
-\bibitem{twitter_calendar}
-Calendar of api changes, twitter developers.
-\newblock https://dev.twitter.com/calendar.
-
 \bibitem{facebook_stack_overflow}
 Facebook, stack overflow.
 \newblock http://facebook.stackoverflow.com.
+
+\bibitem{twitter_calendar}
+Calendar of api changes, twitter developers.
+\newblock https://dev.twitter.com/calendar.
 
 \end{thebibliography}

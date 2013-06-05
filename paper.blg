@@ -4,45 +4,45 @@ The top-level auxiliary file: paper.aux
 The style file: unsrt.bst
 Database file #1: references.bib
 Warning--empty journal in kitchenham2007guidelines
-You've used 27 entries,
+You've used 28 entries,
             1791 wiz_defined-function locations,
-            558 strings with 7437 characters,
-and the built_in function-call counts, 5548 in all, are:
-= -- 518
-> -- 160
+            561 strings with 7584 characters,
+and the built_in function-call counts, 5648 in all, are:
+= -- 526
+> -- 161
 < -- 13
-+ -- 68
++ -- 69
 - -- 41
 * -- 227
-:= -- 703
-add.period$ -- 77
-call.type$ -- 27
-change.case$ -- 27
+:= -- 712
+add.period$ -- 79
+call.type$ -- 28
+change.case$ -- 28
 chr.to.int$ -- 0
-cite$ -- 28
-duplicate$ -- 298
-empty$ -- 663
+cite$ -- 29
+duplicate$ -- 303
+empty$ -- 681
 format.name$ -- 41
-if$ -- 1396
+if$ -- 1423
 int.to.chr$ -- 0
-int.to.str$ -- 27
+int.to.str$ -- 28
 missing$ -- 13
-newline$ -- 124
+newline$ -- 128
 num.names$ -- 13
-pop$ -- 158
+pop$ -- 164
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 217
+skip$ -- 223
 stack$ -- 0
 substring$ -- 254
-swap$ -- 117
+swap$ -- 118
 text.length$ -- 13
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 1
 while$ -- 42
-width$ -- 29
-write$ -- 252
+width$ -- 30
+write$ -- 259
 (There was 1 warning)
